@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.footer-section{
+  
+    position: relative;
+    background: #00254a !important;
+    overflow: hidden;
+    padding: 0 30px;
+    color:#fff;
+}
+.icon-description{
+    display:flex;
+    margin-top:30px;
+}
+.icon-description > h4{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    font-weight: 300;
+}
+.icon-description > h4 > span{
+    width: auto;
+    display: inline-block;
+    font-size: 14px;
+}
+.icon-description > h4 > strong {
+    font-size:18px;
+}
+.footer-link{
+    border-top: 2px solid hsla(0, 0%, 100%, .2);
+    margin-top:25px;
+}
+.quick-link > ul > li{
+    list-style: none;
+    margin-top:12px;
+    font-weight:500;
+    color:gray;
+}
+.address-details{
+    margin-top:25px;
+}
+.address-details > p {
+    color:gray;
+    font-weight: 500;
+    font-size: 15px;
+}
+.quick-link > ul > li > a{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.logo-section{
+    margin-top:25px;
+}
+
+.logo-section > img{
+max-width: 100%;
+
+}
+.footer-logo{
+    display:flex; 
+}
+.license-section {
+    margin-top:30px;
+}
+.license-section > p{
+    font-size:14px;
+}
+.license-description{
+    margin-top:30px;
+}
+.license-description > p{
+    font-size: 12px;
+    color: #7c8899;
+   
+}
+.license-description > h6{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 0;
+    font-weight: 300;
+}
+.pay-section{
+    border-top: 2px solid hsla(0, 0%, 100%, .2);
+    margin-top:40px;
+}
+.links {
+    display:flex;  
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+.links > li {
+    margin: 0 20px 10px;
+}
+.links > li > a {
+    color:#fff;
+    text-decoration: underline;
+    font-size: 11px;
+    font-weight: 400;
+   
+    
+}
+.copy-right_section > p{
+    font-size: 15px;
+    color: #7c8899;
+    font-weight: 500;
+
+}
+

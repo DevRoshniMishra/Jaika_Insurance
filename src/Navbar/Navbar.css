@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav-section{
+    background-image: url('../assests/images/ht-bg.png');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+      height: 800px;
+     
+    
+     
+
+    
+}
+.logo{
+    max-width: 300px;
+    height: 65px;
+}
+.alignment{
+display: flex;
+justify-content: center;
+}
+.nav-item > ul > li >  a{
+    padding: 10px 15px;
+    margin: 0 12px;
+    font-size: 16px;
+    border-radius: 40px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    color:#ac1417 !important;
+    font-weight: 400;
+    text-transform: uppercase;  
+    
+}
+#child-link{
+    color:#2e4a78  !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ac1417;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown-item{
+      color:#fff;
+      background-color: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
